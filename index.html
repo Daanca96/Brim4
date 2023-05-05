@@ -18,6 +18,7 @@
     <script src="js/aframe-layout-component.min.js"></script>
     <script src="js/aframe-template-component.min.js"></script>
     <script src="js/aframe-proxy-event-component.min.js"></script>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
 
     <!-- Image link template to be reused. -->
     <script id="link" type="text/html">
@@ -88,8 +89,7 @@
         <a-entity template="src: #link" data-src="#" data-thumb="#3-thumb"></a-entity>
       </a-entity>
       
-      <a-entity id="boxButton" button="label: box" position="" geometry="width: 0.11; height: 0.05; depth: 0.04" material="color: green" pressable="" visible=""><a-entity position="0 0 0.02" text="value: box; color: white; align: center" scale="0.75 0.75 0.75"></a-entity></a-entity>
-
+     
 <!--
       <a-entity id="links" layout="type: line; margin: 1.5" position="0.5 0 -4" rotation="0 -10 0">
         <a-entity template="src: #link" data-src="#city" data-thumb="#4-thumb"></a-entity>
@@ -109,6 +109,9 @@
         </a-cursor>
       </a-entity>
 
+       <a-entity id="boxButton" button="label: box" position="" geometry="width: 0.11; height: 0.05; depth: 0.04" material="color: green" pressable="" visible=""><a-entity position="0 0 0.02" text="value: box; color: white; align: center" scale="0.75 0.75 0.75"></a-entity></a-entity>
+
+      
     </a-scene>
 
 <script>
